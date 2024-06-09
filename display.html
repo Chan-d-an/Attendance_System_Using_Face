@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <div class="mt-[120px] p-[40px] bg-green-200">
+        <div>
+            <h1 class="text-4xl text-center sm:text-left font-extrabold sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl  tracking-wide my-[50px]">
+                <span class="block xl:inline text-[#FBEFDD] text-7xl text-stroke " style="-webkit-text-stroke-width: 2px; -webkit-text-stroke-color: rgb(53, 39, 175);">
+                <span class="font-bold text-slate-400">F</span>ace <br />
+                <span class="font-bold text-slate-400">A</span>ttendance <br />
+                <span class="font-bold text-slate-400">S</span>ystem</span>
+            </h1>
+            <button id="register" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">
+                <a href="register.html">Register New Student</a>
+            </button>
+            <button id="recognize" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">
+                <a href="attandance.html">Attandance</a>
+            </button>
+            
+            <button id="export" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">Export Attendance</button>
+            
+            <button id="displayRegistered" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">displayRegistered</button>
+        <button id="displayAttandance" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">displayAttandance</button>
+        
+            
+        </div>   
+      </div> 
+    <div >
+
+        <button id="displayRegistered" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">displayRegistered</button>
+        <button id="displayAttandance" class=" py-[10px] px-[20px] bg-[white] font-medium rounded-lg border-black mr-[10px] hover:scale-105 hover:shadow-lg">displayAttandance</button>
+        
+        <div id="registeredTableContainer" class="mt-4"></div>
+    <div id="attendanceTableContainer" class="mt-4"></div>
+    </div>
+</body>
+</html>
